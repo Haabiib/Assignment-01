@@ -45,7 +45,7 @@ nav .nav-button{
 }
 
 .hero{
-    background-image: url('./images/banner.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('./images/banner.jpg');
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -164,21 +164,16 @@ nav .nav-button{
 }
 
 .card-head-hr{
-    width: 100%;
     margin: 15px 0;
     border: none;
     border-top: 1px solid #E5E7EB;
-   
 }
 .card-head-hr-middle{
-
-    width: 100%;
     margin: 15px 0;
     border: none;
-    border-top: 1px solid #E5E7EB;
-   
-
+    border-top: 1px solid #ffffff14;
 }
+
 
 .pricing-container{
     display: flex;
@@ -195,6 +190,7 @@ nav .nav-button{
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
     padding:35px;
+    
 }
 .pricing-container .last-pricing-card{
     flex: 1;
@@ -215,7 +211,7 @@ h6.second-card-head-text{
     color: #2563EB;
 }
 ol.second-card-ol{
-    color: #ffffff;
+    color: #ffffffa4;
 }
 .pricing-container .pricing-card ol{
     list-style-type: disc;
@@ -272,3 +268,8 @@ ol.second-card-ol{
 
 }
 
+/* Footer section start */
+
+
+
+/* Footer section end */
