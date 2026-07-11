@@ -17,7 +17,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 16px;
     color: #575757;
     margin: auto;
     margin-top: 20px;
@@ -43,6 +43,7 @@ nav .nav-button{
     border-radius: 5px;
     cursor: pointer;
 }
+/*  */
 
 .hero{
     background-image:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('./images/banner.jpg');
@@ -120,7 +121,7 @@ nav .nav-button{
     font-weight: bold;
     color: #2563EB;
 }
-
+/*  */
 /* secure your spot section start */
 
 .spot-container{
@@ -267,9 +268,41 @@ ol.second-card-ol{
     cursor: pointer;
 
 }
+/* secure your spot end */
 
 /* Footer section start */
 
+.footer{
+    background-color: #0D1B2A;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 25px 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
 
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
 
+.footer-icons a{
+    font-size: 30px;
+    color: #ffffff;
+}
+.footer-hr{
+    width: 100%;
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #ffffff14;
+}
+.footer-text{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    text-align: center;
+}
 /* Footer section end */
