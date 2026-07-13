@@ -1,0 +1,1 @@
+I am already make a web site "DevConf-2026 theme", I have already five section( Nav, hero, meet the speakers, secure your spot and footer). Now I need to help from you to make another section between "secure your spot"  and footer relevant on DevConf-2026. So give me different idea, explanation and code to make the hidden section. 
